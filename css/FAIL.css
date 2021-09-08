@@ -1,0 +1,49 @@
+@media screen and (max-width: 844px) {
+    .baneer {
+        background-size: auto 570px;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .informaition {
+        flex-direction: column;
+    }
+
+    .informaition div {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .map {
+        flex-direction: column;
+    }
+
+    .baneer a {
+        font-size: 16px;
+    }
+
+
+    .baneer p {
+        font-size: 24px;
+    }
+
+    .baneer h1 {
+        font-size: 34px;
+    }
+
+}
+
+@media screen and (max-width:572px) {
+    .baneer h1 {
+        font-size: 34px;
+    }
+    .contakt-as b {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:502px) {
+    .contakt-as {
+        font-size: 9px;
+    }
+}
